@@ -317,9 +317,9 @@ theme.loadLSP = function ()
         LspDiagnosticsFloatingHint =            { fg = moonlight.purple  }, -- used for "Hint" diagnostic messages in the diagnostics float
         LspDiagnosticsVirtualTextHint =         { fg = moonlight.purple  }, -- Virtual text "Hint"
         LspDiagnosticsUnderlineHint =           { style = 'undercurl', sp = moonlight.paleblue }, -- used to underline "Hint" diagnostics.
-        LspReferenceText =                      { fg = moonlight.accent, bg = moonlight.highlight }, -- used for highlighting "text" references
-        LspReferenceRead =                      { fg = moonlight.accent, bg = moonlight.highlight }, -- used for highlighting "read" references
-        LspReferenceWrite =                     { fg = moonlight.accent, bg = moonlight.highlight }, -- used for highlighting "write" references
+        LspReferenceText =                      { fg = '#212337', bg = moonlight.highlight }, -- used for highlighting "text" references
+        LspReferenceRead =                      { fg = '#212337', bg = moonlight.highlight }, -- used for highlighting "read" references
+        LspReferenceWrite =                     { fg = '#212337', bg = moonlight.highlight }, -- used for highlighting "write" references
     }
 
     return lsp
